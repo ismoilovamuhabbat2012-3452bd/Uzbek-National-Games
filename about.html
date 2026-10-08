@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home page</title>
+  <style>
+    * { 
+      box-sizing: border-box; 
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+      color: #f6f1ea;
+      background: #171817;
+      overflow-x: hidden;
+      font-size: 3rem;
+    }
+
+    .fixed-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ffde7d;
+      padding: 15px;
+      z-index: 1000;
+      text-align: center;
+    }
+
+    .fixed-nav a {
+      color: #000000;
+      text-decoration: none;
+      padding: 0 15px;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .fixed-nav a:hover {
+      color: #ffffff;
+    }
+
+    .content {
+      padding-top: 60px;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Boysun\ city_\ Uzbekistan\ traditional\ games.jpg") center / cover no-repeat;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .hero h1 {
+      font-size: 5.5rem;
+      margin-bottom: 20px;
+      color: #ffde7d;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      max-width: 800px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .scroll-content {
+      padding: 80px 24px;
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 140px; 
+    }
+
+    .reveal-element {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.8s ease-out;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 30px; 
+      width: 100%;
+    }
+
+    .reveal-element.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .info-text {
+      width: 100%;
+    }
+
+    .info-text h2 {
+      font-size: 3.5rem;
+      color: #ffde7d;
+      margin: 0 0 20px 0;
+    }
+
+    .info-text p {
+      font-size: 1.6rem;
+      line-height: 1.8;
+      color: #cccccc;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .info-image {
+      width: 100%;
+      max-width: 750px;
+      height: auto;
+      max-height: 480px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ffde7d;
+    }
+
+ 
+  </style>
+</head>
+<body>
+
+  <nav class="fixed-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="article.html">Articles</a>
+    
+  </nav>
+
+  <div class="hero">
+    <h1>About</h1>
+    <h2>Uzbekistan National Sports & Games</h2>
+    <p>Explore the rich traditions and cultural heritage of Uzbekistan's national sports and games.</p>
+  </div>
+
+  <div class="scroll-content">
+    
+    <div class="reveal-element">
+      <div class="info-text">
+        <h2>Kupkari (Ulak)</h2>
+      </div>
+      <img src="Kopkari.jpg" alt="Kupkari" class="info-image">
+      <div class="info-text">
+        <p>This ancient equestrian sport requires immense bravery, absolute precision, and unparalleled physical skill. For centuries, riders across Central Asia have battled passionately on horseback to secure a goat carcass and carry it straight into the designated target area, proving their ultimate individual strength, strategy, and strategic stamina. The history of Kupkari is deeply intertwined with the nomadic lifestyle of the Uzbek ancestors, serving not only as a rugged form of military training but also as a highly celebrated entertainment centerpiece for weddings and spring festivals across towns like Namangan.</p>
+      </div>
+    </div>
+
+    <div class="reveal-element">
+      <div class="info-text">
+        <h2>Kurash Wrestling</h2>
+      </div>
+      <img src="download (1).jpg" alt="Kurash" class="info-image">
+      <div class="info-text">
+        <p>With an exceptional history officially dating back over 3,500 years, Kurash stands proud as a traditional form of upright wrestling deep within the cultural DNA of Uzbekistan. It remains a sport of pure elite technique and profound mutual respect, where any form of striking, kicking, or ground fighting is strictly forbidden by the historic rules. Modern spectators and global martial arts experts alike admire the simple elegance of Kurash, where wrestlers rely completely on upper body shifts, clothing grips, and precise balancing throws to outmaneuver their opponents onto the mat cleanly.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1> More is coming!! Stay tuned!</h1>
+    </div>
+  </div>
+
+  <script>
+    function reveal() {
+      const reveals = document.querySelectorAll(".reveal-element");
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const elementTop = reveals[i].getBoundingClientRect().top;
+        const elementVisible = 100; 
+        
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        }
+      }
+    }
+    window.addEventListener("scroll", reveal);
+    reveal();
+  </script>
+
+</body>
+</html>
