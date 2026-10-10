@@ -1,7 +1,11 @@
+**Keep the History.**
 Website that describes how history of national games and sports.
 Looking back, even in history, every person really cared about the traditions and had really crucial role. So, even now there are some festivals holding in Uzbekistan to 
 to remember the past and save it for future generations.
 There are plenty of sports you may not heard of. And no, it is not like our modern sports.
+
+
+
 For example: Ko'pkari
 <img width="736" height="489" alt="image" src="https://github.com/user-attachments/assets/aa89c59e-9563-4262-a4f9-e0645d427cc6" />
 
@@ -14,5 +18,25 @@ With an exceptional history officially dating back over 3,500 years, Kurash stan
 Keeping history alive means a lot for residents of Uzbekistan and it is the part of our life. And this tradition not only being held on games and sports, but also national holidays such as Navruz
 Navruz: 
 <img width="736" height="1308" alt="Celebrating the arrival of spring and ancient traditions_ Happy Novruz! 🙏🏻🇦🇿" src="https://github.com/user-attachments/assets/03d77246-c9cd-4823-aaf8-56471e1b1b02" />
+
+
+
+
+**Articles**
+Do we copied articles on the website? 
+
+Not really
+All of the articles were written by our writers and certificated. we had hard time on translating though. Most of the articles were only Uzbek and were published on public. We tried to translate as polish as we could. There are currently availble two of them and we will be updating soon.
+
+<img width="112" height="55" alt="{CCE6CF90-EFD2-4606-8D58-9809FFF04ABA}" src="https://github.com/user-attachments/assets/652523e9-294c-4d2e-8ae8-13e409aa33d0" />
+
+
+**Why all of that?**
+Why are we doing this? We could just do modern stuff and get more attention. But... The things our ancestors build, played, wrote is really means something. They experienced so many things and showed it on their culture, speach, songs. We really try to keep this cultural traditions alive, and to do so, we made this:
+
+
+Our Website. 🐦‍🔥 🐱
+
+If you want to support us: please check this: https://ismoilovamuhabbat2012-3452bd.github.io/Uzbek-National-Games/article.html
 
 Thanks>.. From <UZBEKISTAN>
